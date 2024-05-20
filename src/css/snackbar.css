@@ -1,0 +1,79 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  margin-top: 36px;
+}
+
+fieldset {
+  display: flex;
+  gap: 48px;
+  padding: 14px 48px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  transition: border 250ms ease;
+}
+
+fieldset:hover {
+  border: 1px solid #000;
+}
+
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #4e75ff;
+  border: none;
+  transition: background 250ms ease;
+}
+
+button:hover,
+button:active {
+  background: #6c8cff;
+}
+
+input[name='delay'] {
+  margin-top: 8px;
+  padding-left: 12px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  margin-bottom: 16px;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  box-sizing: border-box;
+  outline: none;
+  transition: border 250ms ease;
+}
+
+input[name='delay']:hover {
+  border: 1px solid #000;
+}
+
+input[name='delay']:active {
+  border: 1px solid #4e75ff;
+}
+
+label {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
